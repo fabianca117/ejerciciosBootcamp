@@ -14,7 +14,7 @@ function verificarEdad() {
     } else if (edad <= 0){
         resultado.textContent = "La edad no puede ser negativa o igual a 0";
         resultado.classList.add('mensaje-invalido');
-    } else if (edad.length > 3){
+    } else if (edad >= 120){
         resultado.textContent = "La longitud de la edad es mayor de la esperada";
         resultado.classList.add('mensaje-invalido');
     } else if (edad >= 18){
